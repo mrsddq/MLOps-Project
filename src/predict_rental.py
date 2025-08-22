@@ -54,6 +54,7 @@ def main():
     #Calculate R-squared
     r_squared = model.score(X_test, y_test)
     print(f"R-squared: {r_squared}")
+    print("Model training and evaluation completed successfully.")
 
     # # User input prediction
     # try:
